@@ -1,197 +1,741 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <title>Jesús Uribe</title>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta
-      name="descripción"
-      content="Esta página te mostrará un poco de mi vida y de mis intereses"
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta name="robots" content="index,follow" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>CV-JESÚS</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
   </head>
-  <body class="is-preload">
-    <!-- Wrapper -->
-    <div id="wrapper">
-      <!-- Main -->
-      <div id="main">
-        <div class="inner">
-          <!-- Header -->
-          <header id="header">
-            <a href="index.html" class="logo"
-              ><strong>Página en construcción</strong></a
+  <body id="page-top">
+    <!-- Navigation-->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+      id="sideNav"
+    >
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Jesús Uribe</span>
+        <span class="d-none d-lg-block"
+          ><img
+            class="img-fluid img-profile rounded-circle mx-auto mb-2"
+            src="data:image/jpeg;base64,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"
+            alt="..."
+        /></span>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarResponsive"
+        aria-controls="navbarResponsive"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience"
+              >Experiencia</a
             >
-            <ul class="icons">
-              <li>
-                <a href="https://www.linkedin.com/in/jesameuriman" class="icon brands fa-linkedin-in"
-                  ><span class="label">Linkedin</span></a
-                >
-              </li>
-              <li>
-                <a href="https://github.com/jesameuriman" class="icon brands fa-github"
-                  ><span class="label">GitHub</span></a
-                >
-              </li>
-              <li>
-                <a href="https://www.facebook.com/jesameuriman" class="icon brands fa-facebook-f"
-                  ><span class="label">Facebook</span></a
-                >
-              </li>
-              <li>
-                <a href="https://www.instagram.com/jesameuriman" class="icon brands fa-instagram"
-                  ><span class="label">Instagram</span></a
-                >
-              </li>
-            </ul>
-          </header>
-
-          <!-- Banner -->
-          <section id="banner">
-            <div class="content">
-              <header>
-                <h1>
-                  Hola, Soy Jesús<br />
-                  Uribe Mancilla
-                </h1>
-                <p>Página personal</p>
-              </header>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education"
+              >Educación</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests"
+              >Aficiones</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Cursos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Page Content-->
+    <div class="container-fluid p-0">
+      <!-- About-->
+      <section class="resume-section" id="about">
+        <div class="resume-section-content">
+          <h1 class="mb-0">
+            Jesús
+            <span class="text-primary">Uribe Mancilla</span>
+          </h1>
+          <div class="subheading mb-5">
+            DNI 45543750 · Jr. Zorritos 1134 - Lima Cercado · (+51) 979-466-917
+            ·
+            <a href="mailto:jesu_uribe@hotmail.com">jesu_uribe@hotmail.com</a>
+          </div>
+          <p class="lead mb-5">
+            Bachiller en ingeniería industrial, con experiencia en
+            implementación y mantenimiento de sistemas integrados de gestión, en
+            rubros operativos y tecnológicos. Actualmente estudiante de maestría
+            en ingeniería de sistemas. Poseo conocimientos en desarrollo web,
+            marketing digital, proyectos y metodología ágiles. Me gusta
+            converger distintos tipos de campos laborales, herramientas,
+            pensamientos y aprendizajes. Comprometido con el trabajo, honesto y
+            con expectativas a desarrollar una carrera en una empresa
+            reconocida.
+          </p>
+          <div class="social-icons">
+            <a
+              class="social-icon"
+              href="http://www.linkedin.com/in/jesameuriman"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a class="social-icon" href="https://github.com/jesameuriman"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a class="social-icon" href="https://gitlab.com/jesameuriman"
+              ><i class="fab fa-gitlab"></i
+            ></a>
+            <a class="social-icon" href="https://www.facebook.com/jesameuriman"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+              class="social-icon"
+              href="https://www.instagram.com/jesameuriman/"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+      <hr class="m-0" />
+      <!-- Experience-->
+      <section class="resume-section" id="experience">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Experiencia</h2>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Asistente QHSE</h3>
+              <div class="subheading mb-3">Dinet – Operador logístico</div>
               <p>
-                El objetivo de la presente página, es diagramar o textualizar
-                mis intereses personales y profesionales, para mostrar a los
-                interesados, establecer objetivos propios, mantener orden de
-                prioridades, mantenerme ocupado o simplemente tener opción de
-                recibir alguna crítica que brinde una mejora futura.
+                <li>
+                  Asistente en el Área QHSE (calidad, salud, seguridad y medio
+                  ambiente).
+                </li>
+                <li>
+                  Responsable de implementar y desarrollar el sistema de gestión
+                  en continuidad del negocio empresarial, basado en parámetros
+                  contemplados en la norma ISO 22301.
+                </li>
+                <li>
+                  Responsable de realizar el seguimiento a los indicadores del
+                  plan de responsabilidad social empresarial.
+                </li>
               </p>
-              <ul class="actions">
-                <li><a href="#" class="button big">Leer más</a></li>
-              </ul>
             </div>
-            <span class="image object">
-              <img src="images/pic10.jpg" alt="" />
-            </span>
-          </section>
-
-          <!-- Section -->
-          <section>
-            <header class="major">
-              <h2>Resúmen</h2>
-            </header>
-            <div class="features">
-              <article>
-                <span class="icon fa-gem"></span>
-                <div class="content">
-                  <h3>Curriculum vitae</h3>
-                  <p>
-                    Aenean ornare velit lacus, ac varius enim lorem ullamcorper
-                    dolore. Proin aliquam facilisis ante interdum. Sed nulla
-                    amet lorem feugiat tempus aliquam.
-                  </p>
-                </div>
-              </article>
-              <article>
-                <span class="icon solid fa-paper-plane"></span>
-                <div class="content">
-                  <h3>Hobbies</h3>
-                  <p>
-                    Aenean ornare velit lacus, ac varius enim lorem ullamcorper
-                    dolore. Proin aliquam facilisis ante interdum. Sed nulla
-                    amet lorem feugiat tempus aliquam.
-                  </p>
-                </div>
-              </article>
-              <article>
-                <span class="icon solid fa-rocket"></span>
-                <div class="content">
-                  <h3>Familia</h3>
-                  <p>
-                    Aenean ornare velit lacus, ac varius enim lorem ullamcorper
-                    dolore. Proin aliquam facilisis ante interdum. Sed nulla
-                    amet lorem feugiat tempus aliquam.
-                  </p>
-                </div>
-              </article>
-              <article>
-                <span class="icon solid fa-signal"></span>
-                <div class="content">
-                  <h3>Librería</h3>
-                  <p>
-                    Aenean ornare velit lacus, ac varius enim lorem ullamcorper
-                    dolore. Proin aliquam facilisis ante interdum. Sed nulla
-                    amet lorem feugiat tempus aliquam.
-                  </p>
-                </div>
-              </article>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Abr. 2019 - Abr. 2020</span>
+              <hr />
+              <button>
+                <a href="assets/img/cv/experiencia/Constancia Dinet.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
             </div>
-          </section>
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Prácticas Profesionales</h3>
+              <div class="subheading mb-3">
+                Superintendencia nacional de los registros públicos - SUNARP
+              </div>
+              <p>
+                <li>
+                  Practicante en el área jefatura (coordinación de calidad y
+                  mejora continua, oficialía de riesgos).
+                </li>
+                <li>
+                  Apoyar en la identificación, realizar el seguimiento y reporte
+                  periódico de los riesgos al sistema de control institucional.
+                </li>
+                <li>
+                  Actualizar el mapa de riesgos de la entidad para su
+                  publicación, así como los indicadores de gestión.
+                </li>
+                <li>
+                  Aportar recomendaciones para mejorar el cumplimento de los
+                  procedimientos y normativas internas.
+                </li>
+              </p>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Oct. 2018 - Abr. 2019</span>
+              <hr />
+              <button><a href="#!">Ver Certificado</a></button>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Prácticas Pre-Profesionales</h3>
+              <div class="subheading mb-3">Banco de la nación - BN</div>
+              <p>
+                <li>
+                  Practicante en el área de riesgos (subgerencia de riesgos
+                  operativos y tecnológicos, sección de políticas de seguridad
+                  de la información).
+                </li>
+                <li>
+                  Apoyar en la actualización de políticas (SGSI–LPDP–G140 SBS),
+                  normas (27001), procedimientos (PCI DSS) para garantizar el
+                  mantenimiento continuo de la seguridad de la información y la
+                  protección de activos.
+                </li>
+                <li>
+                  Responsable de la carga de BBDD a la nueva plataforma de
+                  gobierno, riesgo y cumplimiento SandaS GRC.
+                </li>
+              </p>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Sep. 2016 - Jul. 2017</span>
+              <hr />
+              <button>
+                <a href="assets/img/cv/experiencia/practicas pre BN.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <!-- Sidebar -->
-      <div id="sidebar">
-        <div class="inner">
-          <!-- Search -->
-          <section id="search" class="alt">
-            <form method="post" action="#">
-              <input type="text" name="query" id="query" placeholder="Buscar aquí" />
-            </form>
-          </section>
-
-          <!-- Menu -->
-          <nav id="menu">
-            <header class="major">
-              <h2>Menú</h2>
-            </header>
-            <ul>
-              <li><a href="index.html">PÁGINA PRINCIPAL</a></li>
-              <li><a href="cv-documentado.html">CURRICULUM VITAE</a></li>
-              <li><a href="#">HOBBIES</a></li>
-              <li><a href="#">FAMILIA</a></li>
-              <li>
-                <span class="opener">LIBRERÍA</span>
-                <ul>
-                  <li><a href="#">ISOS</a></li>
-                  <li><a href="#">Industrial</a></li>
-                  <li><a href="#">Marketing</a></li>
-                  <li><a href="#">Diseño web</a></li>
-                </ul>
-              </li>
-            </ul>
-          </nav>
-
-          <!-- Section -->
-          <section>
-            <header class="major">
-              <h2>Contáctame</h2>
-            </header>
-            <p>
-              Para comunicarse conmigo, llámeme directamente, mandeme un mensaje al correo o escríbame al whatsApp.
-            </p>
-            <ul class="contact">
-              <li class="icon solid fa-envelope">
-                <a href="#">jesu_uribe@hotmail.com</a>
-              </li>
-              <li class="icon solid fa-phone">979-466-917</li>
-              </li>
-            </ul>
-          </section>
-          <!-- Footer -->
-          <footer id="footer">
-            <p class="copyright">
-              &copy; Página Personal. Todos los derechos reservados. Imágenes:
-              <a href="https://unsplash.com">Unsplash</a>. Diseño:
-              <a href="#">Jesús</a>.
-            </p>
-          </footer>
+      </section>
+      <hr class="m-0" />
+      <!-- Education-->
+      <section class="resume-section" id="education">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Educación</h2>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">
+                Maestría en ingeniería de sistemas con mención en gerencia de
+                sistemas de información
+              </h3>
+              <div class="subheading mb-3">Universidad Privada del Norte</div>
+              <div>Disciplina académica - Sistemas de información</div>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary"
+                >Oct. 2019 - <strong>Actualmente</strong></span
+              >
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">
+                DIPLOMADO EN SEGURIDAD DE LA INFORMACIÓN Y AUDITORÍA DE SISTEMAS
+                DE INFORMACIÓN
+              </h3>
+              <div class="subheading mb-3">Universidad Privada del Norte</div>
+              <div>
+                Disciplina académica - Seguridad informática - 262 h. -
+                Presencial
+              </div>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Oct. 2019 - Nov. 2020</span>
+              <hr />
+              <button>
+                <a href="assets/img/cv/educacion/Dip. en Seg. de la Inf..pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">DIPLOMADO EN PROCESOS Y MEJORA CONTINUA</h3>
+              <div class="subheading mb-3">Universidad Privada del Norte</div>
+              <div>
+                Disciplina académica - Ingeniería Industrial - 262 h. -
+                Presencial
+              </div>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Nov. 2018 - May 2020</span>
+              <hr />
+              <button>
+                <a href="assets/img/cv/educacion/Dip. Proc. y Mejora Cont..pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">BACHILLER EN INGENIERÍA INDUSTRIAL</h3>
+              <div class="subheading mb-3">
+                UNIVERSIDAD INCA GARCILASO DE LA VEGA
+              </div>
+              <div>
+                Disciplina académica - Ingeniería Industrial - 10 ciclos -
+                Presencial
+              </div>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Mar. 2013 - Dic. 2017</span>
+              <hr />
+              <button>
+                <a href="assets/img/cv/educacion/bachiller ing industrial.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">
+                PROGRAMA DE ESPECIALIZACIÓN EN MICROSOFT EXCEL
+              </h3>
+              <div class="subheading mb-3">
+                ESCUELA NACIONAL DE ESTADÍSTICA E INFORMÁTICA
+              </div>
+              <div>Disciplina académica - Ofimática - 80 h. - Presencial</div>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">May. 2013 - Ago. 2013</span>
+              <hr />
+              <button>
+                <a href="assets/img/cv/educacion/microsoft excel.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
+      <hr class="m-0" />
+      <!-- Skills-->
+      <section class="resume-section" id="skills">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Habilidades</h2>
+          <div class="subheading mb-3">Desarrollo web</div>
+          <ul class="list-inline dev-icons">
+            <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+            <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+            <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+          </ul>
+          <div class="subheading mb-3">Control de versiones</div>
+          <ul class="list-inline dev-icons">
+            <li class="list-inline-item"><i class="fab fa-github"></i></li>
+            <li class="list-inline-item"><i class="fab fa-gitlab"></i></li>
+            <li class="list-inline-item"><i class="fab fa-git"></i></li>
+          </ul>
+          <div class="subheading mb-3">
+            Herramientas, entorno y flujo de trabajo
+          </div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Ubuntu 22.04 LTS, Windows 10 pro
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              LibreOffice, Ms Office, Gsuite
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Draw, Visio, Bizagi
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              ProjectLibre, Ms Project, Trello, Notion
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Canva, Photopea
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Mobile-First, Diseño Responsivo
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Desarrollo Ágil, Scrum, Design Thinking
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Project Management
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              ISO 9001 – 19510 – 22301 - 27001 – 45001
+            </li>
+          </ul>
+        </div>
+      </section>
+      <hr class="m-0" />
+      <!-- Interests-->
+      <section class="resume-section" id="interests">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Aficiones</h2>
+          <p>
+            Disfruto parte de mi tiempo dando largas caminatas, en la ciudad o
+            en alguna montaña.
+          </p>
+          <p class="mb-0">
+            A partir de la pandemia le he tomado gusto a probar distribuciones
+            linux, compararlas y leer blogs sobre ello. También me agrada ver
+            series o manga de ciencia ficción, fantasia y suspenso.
+          </p>
+        </div>
+      </section>
+      <hr class="m-0" />
+      <!-- Awards-->
+      <section class="resume-section" id="awards">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Cursos</h2>
+          <div class="subheading mb-3">Desarrollo web</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso práctico de frontend developer, 13 h, Platzi
+              <button>
+                <a
+                  href="assets/img/cv/cursos/desarrollo-web/diploma-frontend-developer-practico.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso de frontend developer, 15 h, Platzi
+              <button>
+                <a
+                  href="assets/img/cv/cursos/desarrollo-web/diploma-frontend-developer.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso básico de javascript, 19 h, Platzi
+              <button>
+                <a
+                  href="assets/img/cv/cursos/desarrollo-web/diploma-basico-javascript.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso definitivo de html y css, 23 h, Platzi
+              <button>
+                <a
+                  href="assets/img/cv/cursos/desarrollo-web/diploma-html-css.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso de introducción a la terminal y línea de comandos, 11 h,
+              Platzi
+              <button>
+                <a
+                  href="assets/img/cv/cursos/desarrollo-web/diploma-terminal.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso de fundamentos de ingeniería de software, 15 h, Platzi
+              <button>
+                <a
+                  href="assets/img/cv/cursos/desarrollo-web/diploma-ingenieria.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso de programación básica, 34 h, Platzi
+              <button>
+                <a
+                  href="assets/img/cv/cursos/desarrollo-web/diploma-programacion-basica.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso de computación básica, 14 h, Platzi
+              <button>
+                <a
+                  href="assets/img/cv/cursos/desarrollo-web/diploma-computacion-basica.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+          </ul>
+          <hr />
+          <div class="subheading mb-3">Marketing Digital</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso de diseño html y css para emails, 17 h. Platzi
+              <button>
+                <a
+                  href="assets/img/cv/cursos/marketing-digital/diploma-diseno-email.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso de content marketing, 8 h. Platzi
+              <button>
+                <a
+                  href="assets/img/cv/cursos/marketing-digital/diploma-contenido.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso de planeación y medición de campañas digitales, 9 h. Platzi
+              <button>
+                <a
+                  href="assets/img/cv/cursos/marketing-digital/diploma-campanas-digitales.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso de fundamentos de publicidad y pauta digital, 14 h, Platzi
+              <button>
+                <a
+                  href="assets/img/cv/cursos/marketing-digital/diploma-fund-publicidad-digital.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso de introducción al marketing digital, 17 h, Platzi
+              <button>
+                <a
+                  href="assets/img/cv/cursos/marketing-digital/diploma-introduccion-marketing-2018.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+          </ul>
+          <hr />
+          <div class="subheading mb-3">Base de datos</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso de microsoft SQL server – implementación, 24h, CEPS-UNI
+              <button>
+                <a
+                  href="assets/img/cv/cursos/base-de-datos/sql server implementación.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso de diseño de base de datos, 24h, CEPS-UNI
+              <button>
+                <a
+                  href="assets/img/cv/cursos/base-de-datos/diseño de base de datos.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+          </ul>
+          <hr />
+          <div class="subheading mb-3">Estadística</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso de introducción a business intelligence con excel, 11 h,
+              Platzi
+              <button>
+                <a href="assets/img/cv/cursos/estadistica/diploma-bi-excel.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso de básico de spss statistics, 30 h, ENEI
+              <button>
+                <a href="assets/img/cv/cursos/estadistica/spss basico.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+          </ul>
+          <hr />
+          <div class="subheading mb-3">Administración de proyectos</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso de project management con pmbok, 8 h. Platzi
+              <button>
+                <a
+                  href="assets/img/cv/cursos/adm-de-proyectos/diploma-proyectos-pmbok.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso de design thinking con minds garage, 21 h. Platzi
+              <button>
+                <a
+                  href="assets/img/cv/cursos/adm-de-proyectos/diploma-design-thinking.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso profesional de git y github, 22 h. Platzi
+              <button>
+                <a
+                  href="assets/img/cv/cursos/adm-de-proyectos/diploma-git-github.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso de fundamentos de project management, 13 h, Platzi
+              <button>
+                <a
+                  href="assets/img/cv/cursos/adm-de-proyectos/diploma-fund-project-management.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso de administración de actividades con trello, 13 h, Platzi
+              <button>
+                <a
+                  href="assets/img/cv/cursos/adm-de-proyectos/diploma-trello.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+          </ul>
+          <hr />
+          <div class="subheading mb-3">Otros</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso de business continuity management foundation, 18 h, PMC –
+              EXIN
+              <button>
+                <a href="assets/img/cv/cursos/otros/Certificado EXIN.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+              <button>
+                <a href="assets/img/cv/cursos/otros/Fundamentos 22301.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso de sistemas de información gerencial, Laureate
+              <button>
+                <a
+                  href="assets/img/cv/cursos/otros/Sistemas de información gerencial.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso de dirección de la tecnología y las operaciones, Laureate
+              <button>
+                <a
+                  href="assets/img/cv/cursos/otros/Dirección de la tecnología y las operaciones.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso de redacción eficaz, ILVEM
+              <button>
+                <a href="assets/img/cv/cursos/otros/redacción eficaz.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Curso de marca personal, 11 h, Platzi
+              <button>
+                <a href="assets/img/cv/cursos/otros/diploma-marca-personal.pdf"
+                  >Ver Certificado</a
+                >
+              </button>
+            </li>
+          </ul>
+          <hr />
+        </div>
+      </section>
     </div>
-
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
   </body>
 </html>
